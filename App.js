@@ -1,7 +1,7 @@
 const mongoose = require('mongoose')
 require('dotenv').config()
-const url = process.env.url
-const port = process.env.port
+const url = 'mongodb+srv://saanviv0089:06gbZn0ijilows3M@python.al97p.mongodb.net/'
+const port = 3000
 mongoose.connect(url)
 
 const schema = mongoose.Schema({
