@@ -8,6 +8,7 @@ mongoose.connect(url, {
 })
 .then(() => console.log("MongoDB connected"))
 .catch((err) => console.error("MongoDB connection error:", err));
+mongoose.connect(url)
 
 const schema = mongoose.Schema({
     date: String,
